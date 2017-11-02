@@ -83,7 +83,7 @@ function onMessageArrived(message) {
 // if (typeof Paho === "undefined") {
 // 	Paho = {};
 // }
-export default Paho  = {}
+export default var Paho  = {}
 
 Paho.MQTT = (function (global) {
 
